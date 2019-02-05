@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ButtonComponent } from './button.component';
+import { ButtonComponent } from './button/button.component';
+import { StartButtonComponent } from './start-button/start-button.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ButtonComponent
+    ButtonComponent,
+    StartButtonComponent
   ],
   imports: [
     BrowserModule,

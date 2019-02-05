@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  
+  startQuiz(event) {
+    console.log('Let us start the Quiz');
+    console.log(event)
+  }
 }
